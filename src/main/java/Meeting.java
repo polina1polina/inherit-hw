@@ -4,7 +4,7 @@ public class Meeting extends Task {
     private String project;
     private final String start;
 
-    public Meeting(int id, String topic, String start, String воВторникПослеОбеда) {
+    public Meeting(int id, String topic, String start, String project) {
         super(id);
         this.project = project;
         this.start = start;
@@ -12,14 +12,17 @@ public class Meeting extends Task {
     }
 
     public String getTopic() {
+
         return topic;
     }
 
     public String getProject() {
+
         return project;
     }
 
     public String getStart() {
+
         return start;
     }
 
